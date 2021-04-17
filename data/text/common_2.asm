@@ -558,16 +558,11 @@ _ItemfinderNopeText::
 _PoisonFaintText::
 	text_ram wStringBuffer3
 	text_start
-	line "fainted!"
+	;poison survival
+	line "survived the"
+	cont "poisoning!"
 	prompt
 
-_PoisonWhiteoutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
-
-	para "<PLAYER> whited"
-	line "out!"
-	prompt
 
 _UseSweetScentText::
 	text_ram wStringBuffer3
